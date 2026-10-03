@@ -1,0 +1,21 @@
+# Unreal Engine
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.VC.db
+*.opendb
+*.xcworkspace
+
+# ネイティブテストの出力
+build/

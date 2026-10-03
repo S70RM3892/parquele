@@ -1,0 +1,10 @@
+root = true
+
+[*.{h,cpp}]
+# 日本語コメントを含むため BOM 付き UTF-8（日本語版 Windows の MSVC が CP932 と誤読しないように）
+charset = utf-8-bom
+indent_style = tab
+indent_size = 4
+
+[*.{cs,ini,uproject,md,yml}]
+charset = utf-8
